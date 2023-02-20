@@ -2,7 +2,7 @@
   "name": "blogx-backend",
   "version": "1.0.0",
   "description": "Express backend for blogx project",
-  "main": "server.ts",
+  "main": "src/server.ts",
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/server.js",
