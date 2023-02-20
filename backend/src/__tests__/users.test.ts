@@ -27,4 +27,15 @@ describe("Login user", () => {
     expect(response.body.token).toBeTruthy();
     expect(response.body.user.email).toEqual("test_user@example.org");
   });
+  test("should return 404 status code", async () => {
+    const response = await request(app).post("/api/auth/login").send({
+      email: "test_user@example.org",
+      password: "a_password12",
+    });
+    expect(response.statusCode).toEqual(401);
+    expect(response.headers["content-type"]).toEqual(
+      expect.stringContaining("json")
+    );
+    expect(response.body.token).not.toBeTruthy();
+  });
 });
