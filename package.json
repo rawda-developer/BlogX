@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "NODE_ENV=test jest"
+    "test": "NODE_ENV=test jest --runInBand"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
