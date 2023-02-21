@@ -10,7 +10,7 @@ describe("/api/articles", () => {
     await handleArticles(req, res);
 
     expect(res._getStatusCode()).toBe(200);
-    // console.log(res._getData())
+    console.log(res._getData())
     expect(JSON.parse(res._getData())).toEqual(
       expect.objectContaining({
         
