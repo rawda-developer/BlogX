@@ -65,7 +65,7 @@ This site is being deployed on vercel
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [NextJs](https://nextjs.org/) - Web Framework
-- [MongoDB](https://www.mongodb.com/) - Datab
+- [MongoDB](https://www.mongodb.com/) - Database
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
