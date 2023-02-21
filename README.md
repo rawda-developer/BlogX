@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener">
+  <a href="https://github.com/rawda-developer/BlogX" rel="noopener">
  <img width=200px src="./public/BlogX.png" alt="Project logo"></a>
 </p>
 
