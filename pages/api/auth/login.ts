@@ -28,7 +28,7 @@ export default async function handler(
         const user = await User.findOne({ email: req.body.email });
 
         if (!user || !user.authenticate(req.body.password)) {
-          return res.status(401).send({
+          return res.status(401).json({
             message: "Email and password don't match",
             success: false,
           });
@@ -50,7 +50,7 @@ export default async function handler(
           .status(401)
           .json({ message: "couldn't login", success: false });
       }
-      break;
+   
     default:
       res
         .status(400)
