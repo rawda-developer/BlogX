@@ -14,7 +14,8 @@ export default async function handler(
   switch (method) {
     case "POST":
       try {
-        await User.create(req.body);
+        await new User(req.body).save();
+        console.log(await User.find({}));
         res.json({ message: "You registered successfully", success: true });
       } catch (err) {
         res
