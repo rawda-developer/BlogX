@@ -25,14 +25,15 @@ export const close = async () => {
 };
 
 // Remove all data from collections
-export const clear = () => {
-  // const collections = mongoose.connection.collections;
-  // // console.log(collections);
-  // for (const key in collections) {
-  //   collections[key].deleteMany();
-  // }
+export const clear = async () => {
+  const collections = mongoose.connection.collections;
 
-  mongoose.connection.db.dropDatabase();
+  // console.log(collections);
+  for (const key in collections) {
+    await collections[key].deleteMany({});
+  }
+
+  await mongoose.connection.db.dropDatabase();
 
   console.log("Database cleaned");
 };
