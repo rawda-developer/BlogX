@@ -1,27 +1,79 @@
-# Next.js + Tailwind CSS Example
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px src="./public/BlogX.png" alt="Project logo"></a>
+</p>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<h3 align="center">BlogX</h3>
 
-## Deploy your own
+---
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## 📝 Table of Contents
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
 
-## How to use
+- [Authors](#authors)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## 🧐 About <a name = "about"></a>
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+A full stack website that performs CRUD operations on articles. It has an authentications system. It enables users to view, create, update, and delete their blog posts. Also, it allows users to upvote and comment on other blog posts.
+
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+### Prerequisites
+
+You need to have node.js and npm as well as mongodb installed on your machine.
+
+### Installing
+
+1. Clone the repository
+
+   ```
+   git clone https://github.com/rawda-developer/BlogX
+   ```
+
+   ```
+   cd BlogX
+   ```
+
+2. Install all packages
+   ```
+   npm install
+   ```
+3. Start the project
+   ```
+   npm run dev
+   ```
+
+## 🔧 Running the tests
+
+```
+npm test
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## 🎈 Usage <a name="usage"></a>
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+Use this project as a guide for creating your next full stack web app using Next.js and mongoose
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## 🚀 Deployment <a name = "deployment"></a>
+
+This site is being deployed on vercel
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- [NextJs](https://nextjs.org/) - Web Framework
+- [MongoDB](https://www.mongodb.com/) - Datab
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@RawdaDeveloper](https://github.com/rawda-developer) - Idea & Initial work
+
+See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+
+## Designed by Figma
+
+[Figma UI Design Mockup](https://www.figma.com/proto/q1iWAZdSeoDzjfB0xWNrFZ/BlogX?node-id=2%3A70409&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A70409)
