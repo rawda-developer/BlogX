@@ -72,8 +72,6 @@ This site is being deployed on vercel
 
 - [@RawdaDeveloper](https://github.com/rawda-developer) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
 ## Designed by Figma
 
 [Figma UI Design Mockup](https://www.figma.com/proto/q1iWAZdSeoDzjfB0xWNrFZ/BlogX?node-id=2%3A70409&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A70409)
