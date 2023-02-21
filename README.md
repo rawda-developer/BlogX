@@ -72,6 +72,6 @@ This site is being deployed on vercel
 
 - [@RawdaDeveloper](https://github.com/rawda-developer) - Idea & Initial work
 
-## Designed by Figma
+## Designed with Figma
 
 [Figma UI Design Mockup](https://www.figma.com/proto/q1iWAZdSeoDzjfB0xWNrFZ/BlogX?node-id=2%3A70409&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A70409)
