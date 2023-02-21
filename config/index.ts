@@ -1,7 +1,7 @@
 import 'dotenv/config'
 const config = {
     env: process.env.NODE_ENV || 'development',
-    port: process.env.PORT || 4000,
+    port: process.env.PORT || 3000,
     jwtSecret: process.env.JWT_SECRET || 'Secret',
     mongoUri:
         process.env.MONGODB_URI ||
